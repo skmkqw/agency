@@ -247,6 +247,7 @@ body {
 }
 body.lock {
   overflow: hidden;
+  position:fixed;
 }
 
 .container {
