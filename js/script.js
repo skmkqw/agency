@@ -122,3 +122,11 @@ document.querySelector('[data-tab="tab-1"]').classList.add('active');
 document.querySelector('#tab-1').classList.remove('hidden');
 
 /*--------------------/TABS--------------------*/
+
+document.addEventListener("DOMContentLoaded", function() {
+	// Hide the preloader when content is fully loaded
+	setTimeout( function() {
+	  const preloader = document.querySelector(".preloader");
+	  preloader.classList.add("hidden");
+	}, 2000);
+  });
