@@ -81,22 +81,6 @@ if (lang) {
 
 /*--------------------/LANG--------------------*/
 
-/*--------------------SWIPER--------------------*/
-
-let slider = new Swiper('.swiper', {
-	spaceBetween: 200,
-	slidesPerView: 1,
-	initialSlide: 1,
-	// Navigation arrows
-	navigation: {
-		nextEl: '.swiper-button-next',
-		prevEl: '.swiper-button-prev',
-	},
-});
-
-/*--------------------/SWIPER--------------------*/
-
-
 /*--------------------TABS--------------------*/
 
 const tabsTitle = document.querySelectorAll('.tabs-title');
@@ -130,3 +114,12 @@ document.addEventListener("DOMContentLoaded", function() {
 	  preloader.classList.add("hidden");
 	}, 2000);
   });
+
+
+document.querySelector('.jumping-button').addEventListener('click', function() {
+this.classList.add('clicked');
+setTimeout(() => {
+	this.classList.remove('clicked');
+}, 500); // Duration of the animation
+});
+  

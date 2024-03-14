@@ -6,8 +6,6 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-
 	<title>Agency</title>
 </head>
 
@@ -32,11 +30,11 @@
 			<button type="submit" class="login-submit">Log In</button>
 			<div class="login-ga">
 				<button class="login-google login-btn">
-					<img src="img/icons8-google.svg" alt="">
+					<img src="./img/icons8-google.svg" alt="">
 					Log In with Google
 				</button>
 				<button class="login-apple login-btn">
-					<img src="img/apple-logo.svg" alt="">
+					<img src="./img/apple-logo.svg" alt="">
 					Log In with Apple
 				</button>
 			</div>
@@ -61,11 +59,11 @@
 			<button type="submit" class="login-submit">Sign Up</button>
 			<div class="login-ga">
 				<button class="login-google login-btn">
-					<img src="img/icons8-google.svg" alt="">
+					<img src="./img/icons8-google.svg" alt="">
 					Continue with Google
 				</button>
 				<button class="login-apple login-btn">
-					<img src="img/apple-logo.svg" alt="">
+					<img src="./img/apple-logo.svg" alt="">
 					Continue with Apple
 				</button>
 			</div>
@@ -76,7 +74,7 @@
 
 	<header class="header">
 		<div class="container header-container">
-			<a href="" class="logo"><svg width="34" height="32" viewBox="0 0 34 32" fill="none"
+			<a href="" class="logo rotating-image"><svg width="34" height="32" viewBox="0 0 34 32" fill="none"
 					xmlns="http://www.w3.org/2000/svg">
 					<ellipse cx="17.04" cy="16" rx="16.32" ry="16" fill="#F0998D" />
 					<path
@@ -87,15 +85,14 @@
 			<div class="header-menu menu">
 				<nav class="menu-body">
 					<ul class="menu-list">
-						<li class="menu-item"><a href="#" class="menu-link">Product</a></li>
-						<li class="menu-item"><a href="#" class="menu-link">Use Case</a></li>
-						<li class="menu-item"><a href="#" class="menu-link">Learn</a></li>
-						<li class="menu-item"><a href="#" class="menu-link">Comparison</a></li>
-						<li class="menu-item"><a href="#" class="menu-link">Pricing</a></li>
-						<li class="menu-item"><a href="#" class="menu-link">Contact Sales</a></li>
+						<li class="menu-item"><a href="#product" class="menu-link">Product</a></li>
+						<li class="menu-item"><a href="#usecases" class="menu-link">Use Cases</a></li>
+						<li class="menu-item"><a href="#benefits" class="menu-link">Benefits</a></li>
+						<li class="menu-item"><a href="#pricing" class="menu-link">Pricing</a></li>
+						<li class="menu-item"><a href="#beta" class="menu-link">Apply beta</a></li>
 					</ul>
 				</nav>
-				<div class="menu-btn">
+				<div class="menu-btn jumping-button">
 					<button href="" id="signup">Sign up</button>
 				</div>
 				<div class="menu-lang">
@@ -123,7 +120,7 @@
 	</header>
 
 	<main class="main">
-		<section class="section-hero">
+		<section class="section-hero" id="product">
 			<div class='container'>
 				<div class="hero">
 					<div class="hero-content">
@@ -138,21 +135,21 @@
 						</div>
 						<div class="hero-rating rating">
 							<div class="rating-content">
-								<div class="rating-stars"><img src="img/stars.svg" alt=""></div>
+								<div class="rating-stars"><img src="./img/stars.svg" alt=""></div>
 								<div class="rating-text text">Based on 100+ marketers reviews on</div>
 							</div>
 							<div class="rating-logos">
-								<div class="rating-logo"><img src="img/rating-logo1.svg" alt=""></div>
-								<div class="rating-logo"><img src="img/rating-logo2.svg" alt=""></div>
-								<div class="rating-logo"><img src="img/rating-logo3.svg" alt=""></div>
+								<div class="rating-logo"><img src="./img/rating-logo1.svg" alt=""></div>
+								<div class="rating-logo"><img src="./img/rating-logo2.svg" alt=""></div>
+								<div class="rating-logo"><img src="./img/rating-logo3.svg" alt=""></div>
 							</div>
 						</div>
 					</div>
-					<div class="hero-img"><img src="img/hero-img.webp" alt=""></div>
+					<div class="hero-img"><img src="./img/hero-img.webp" alt=""></div>
 				</div>
 			</div>
 		</section>
-		<section class="section-tabs">
+		<section class="section-tabs" id="usecases">
 			<div class='container'>
 				<div class="tabs">
 					<ul class="tabs-list">
@@ -181,7 +178,7 @@
 								</div>
 								<div class="tab-btn btn" id="signup">Sign up</div>
 							</div>
-							<div class="tab-img"><img src="img/tab-1.png" alt=""></div>
+							<div class="tab-img"><img src="./img/tab-1.png" alt=""></div>
 						</div>
 						<div class="tab hidden" id="tab-2">
 							<div class="tab-content">
@@ -199,7 +196,7 @@
 								</div>
 								<div class="tab-btn btn" id="signup">Sign up</div>
 							</div>
-							<div class="tab-img"><img src="img/tab-2.png" alt=""></div>
+							<div class="tab-img"><img src="./img/tab-2.png" alt=""></div>
 						</div>
 						<div class="tab hidden" id="tab-3">
 							<div class="tab-content">
@@ -219,7 +216,7 @@
 								</div>
 								<div class="tab-btn btn" id="signup">Sign up</div>
 							</div>
-							<div class="tab-img"><img src="img/tab-3.png" alt=""></div>
+							<div class="tab-img"><img src="./img/tab-3.png" alt=""></div>
 						</div>
 						<div class="tab hidden" id="tab-4">
 							<div class="tab-content">
@@ -238,7 +235,7 @@
 								</div>
 								<div class="tab-btn btn" id="signup">Sign up</div>
 							</div>
-							<div class="tab-img"><img src="img/tab-4.png" alt=""></div>
+							<div class="tab-img"><img src="./img/tab-4.png" alt=""></div>
 						</div>
 						<div class="tab hidden" id="tab-5">
 							<div class="tab-content">
@@ -258,13 +255,13 @@
 								</div>
 								<div class="tab-btn btn" id="signup">Sign up</div>
 							</div>
-							<div class="tab-img"><img src="img/tab-5.png" alt=""></div>
+							<div class="tab-img"><img src="./img/tab-5.png" alt=""></div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section class="section-stop">
+		<section class="section-stop" id="benefits">
 			<div class='container'>
 				<div class="stop">
 					<div class="stop-main">
@@ -306,7 +303,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="section-pricing">
+		<section class="section-pricing" id="pricing">
 			<div class='container'>
 				<div class="pricing">
 					<div class="pricing-info">
@@ -331,70 +328,13 @@
 				</div>
 			</div>
 		</section>
-		<section class="section-ratings">
-			<div class='container'>
-				<div class="ratings">
-					<div class="swiper">
-						<div class="swiper-wrapper">
-							<div class="swiper-slide slide">
-								<div class="slide-img">
-									<img src="img/silde-1.png" alt="" class="slide-image">
-									<img src="img/slider-play.svg" alt="" class="slide-play">
-								</div>
-								<div class="slide-content">
-									<div class="slide-title">Christophe Bourand, ChrisWebMarketing</div>
-									<div class="slide-text text">Juggling with all my clients and making sure everything
-										was done correctly took me a lot of energy. Not did Snikpic enabled me to
-										tremendously release that extra useless work, but I quickly found myself able to
-										take on much more clients than I originally could </div>
-									<div class="slide-icon"><img src="img/slide-icon.png" alt=""></div>
-								</div>
-							</div>
-
-							<div class="swiper-slide slide">
-								<div class="slide-img">
-									<img src="img/silde-1.png" alt="" class="slide-image">
-									<img src="img/slider-play.svg" alt="" class="slide-play">
-								</div>
-								<div class="slide-content">
-									<div class="slide-title">Christophe Bourand, ChrisWebMarketing</div>
-									<div class="slide-text text">Juggling with all my clients and making sure everything
-										was done correctly took me a lot of energy. Not did Snikpic enabled me to
-										tremendously release that extra useless work, but I quickly found myself able to
-										take on much more clients than I originally could </div>
-									<div class="slide-icon"><img src="img/slide-icon.png" alt=""></div>
-								</div>
-							</div>
-
-							<div class="swiper-slide slide">
-								<div class="slide-img">
-									<img src="img/silde-1.png" alt="" class="slide-image">
-									<img src="img/slider-play.svg" alt="" class="slide-play">
-								</div>
-								<div class="slide-content">
-									<div class="slide-title">Christophe Bourand, ChrisWebMarketing</div>
-									<div class="slide-text text">Juggling with all my clients and making sure everything
-										was done correctly took me a lot of energy. Not did Snikpic enabled me to
-										tremendously release that extra useless work, but I quickly found myself able to
-										take on much more clients than I originally could </div>
-									<div class="slide-icon"><img src="img/slide-icon.png" alt=""></div>
-								</div>
-							</div>
-						</div>
-						<div class="swiper-buttons">
-							<div class="swiper-button-prev swiper-button"></div>
-							<div class="swiper-button-next swiper-button"></div>
-						</div>
-					</div>
-				</div>
-		</section>
 	</main>
 
 	<footer class="footer">
 		<div class='container'>
 			<div class="footer-wrapper">
-				<form class="footer-form form">
-					<div class="form-title title">apply to our<span>closed beta.</span></div>
+				<form class="footer-form form" id="beta">
+					<div class="form-title title">apply to our <span>closed beta.</span></div>
 					<div class="form-row">
 						<div class="form-item">
 							<label for="name">Name</label>
@@ -420,9 +360,9 @@
 			</div>
 			<div class="footer-content">
 				<div class="logo-item">
-					<img src="img/logofooter.svg" alt="" class="footer-logo">
-					<div class="footer-icons"><img src="img/facebook.svg" alt=""><img src="img/linkedin.svg" alt=""><img
-							src="img/instagram.svg" alt=""></div>
+					<img src="./img/logofooter.svg" alt="" class="footer-logo rotating-image">
+					<div class="footer-icons"><img src="./img/facebook.svg" alt=""><img src="./img/linkedin.svg" alt=""><img
+							src="./img/instagram.svg" alt=""></div>
 				</div>
 				<div class="footer-item">
 					<ul class="footer-list">
@@ -449,8 +389,7 @@
 		</div>
 	</footer>
 
-	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-	<script src="js/script.js"></script>
+	<script src="./js/script.js"></script>
 
 </body>
 
